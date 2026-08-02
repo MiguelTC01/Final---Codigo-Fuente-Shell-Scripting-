@@ -25,7 +25,7 @@ Para el correcto funcionamiento de este sistema, se requiere:
 * `reporte_web.sh`: Módulo de análisis que lee los registros y reconstruye la interfaz gráfica web (`index.html`) para Nginx.
 
 ## Instalación y Configuración
-1. Clona este repositorio en tu servidor Linux:
+Clona este repositorio en tu servidor Linux:
 ```bash
 https://github.com/MiguelTC01/Codigo-Fuente-Shell-Scripting-.git
 ```
