@@ -38,7 +38,8 @@ sudo systemctl enable nginx
 
 ## Uso del Sistema
 Inicia el orquestador principal utilizando privilegios de superusuario:
-   `sudo ./examen_final.sh`
+Bash
+sudo ./examen_final.sh
 
 ## Opciones del Menú:
 - Ejecutar Backup de Directorios Clave: Invoca al motor de respaldo para empaquetar los directorios y registra el resultado de la operación.
