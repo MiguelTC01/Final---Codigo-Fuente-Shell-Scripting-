@@ -26,8 +26,9 @@ Para el correcto funcionamiento de este sistema, se requiere:
 
 ## Instalación y Configuración
 1. Clona este repositorio en tu servidor Linux:
-   ```bash
-   git clone <URL_DE_TU_REPOSITORIO>
+```bash
+https://github.com/MiguelTC01/Codigo-Fuente-Shell-Scripting-.git
+```
 
 ## Navega al directorio del proyecto y otorga permisos de ejecución a los scripts:
    ```bash
