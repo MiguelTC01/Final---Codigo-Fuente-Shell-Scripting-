@@ -1,5 +1,5 @@
 Autores:
-Miguel Angel Terrones Cajamuni y Williams Mogollon Zapata
+Miguel Terrones Cajamuni y Williams Mogollon Zapata
 
 # Sistema de Automatización de Respaldos y Monitoreo Web
 
