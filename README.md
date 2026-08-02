@@ -30,17 +30,15 @@ Para el correcto funcionamiento de este sistema, se requiere:
    git clone <URL_DE_TU_REPOSITORIO>
 
 ## Navega al directorio del proyecto y otorga permisos de ejecución a los scripts:
-   ```bash
-chmod +x *.sh
+   `chmod +x *.sh`
 
 ## Verifica que el servicio Nginx esté activo:
-sudo systemctl start nginx
-sudo systemctl enable nginx
+`sudo systemctl start nginx`
+`sudo systemctl enable nginx`
 
 ## Uso del Sistema
 Inicia el orquestador principal utilizando privilegios de superusuario:
-   ```bash
-   sudo ./examen_final.sh
+   `sudo ./examen_final.sh`
 
 ## Opciones del Menú:
 - Ejecutar Backup de Directorios Clave: Invoca al motor de respaldo para empaquetar los directorios y registra el resultado de la operación.
