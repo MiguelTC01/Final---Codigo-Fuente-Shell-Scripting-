@@ -30,11 +30,11 @@ Para el correcto funcionamiento de este sistema, se requiere:
    git clone <URL_DE_TU_REPOSITORIO>
 
 ## Navega al directorio del proyecto y otorga permisos de ejecución a los scripts:
-   `chmod +x *.sh`
+chmod +x *.sh
 
 ## Verifica que el servicio Nginx esté activo:
-`sudo systemctl start nginx`
-`sudo systemctl enable nginx`
+sudo systemctl start nginx
+sudo systemctl enable nginx
 
 ## Uso del Sistema
 Inicia el orquestador principal utilizando privilegios de superusuario:
