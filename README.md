@@ -29,18 +29,18 @@ Para el correcto funcionamiento de este sistema, se requiere:
    ```bash
    git clone <URL_DE_TU_REPOSITORIO>
 
-1. Navega al directorio del proyecto y otorga permisos de ejecución a los scripts:
+## Navega al directorio del proyecto y otorga permisos de ejecución a los scripts:
 chmod +x *.sh
 
-2. Verifica que el servicio Nginx esté activo:
+## Verifica que el servicio Nginx esté activo:
 sudo systemctl start nginx
 sudo systemctl enable nginx
 
-3. Uso del Sistema
+## Uso del Sistema
 Inicia el orquestador principal utilizando privilegios de superusuario:
 sudo ./examen_final.sh
 
-4. Opciones del Menú:
+## Opciones del Menú:
 - Ejecutar Backup de Directorios Clave: Invoca al motor de respaldo para empaquetar los directorios y registra el resultado de la operación.
 - Verificar estado del servidor Nginx: Evalúa de manera silenciosa si el demonio web está operando correctamente y muestra el estado en pantalla.
 - Visualizar bitácora local: Imprime las últimas 20 líneas del archivo central de registros de respaldo.
